@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #index.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -103,6 +88,9 @@
    */
 
   --radius-24: 24px;
+  --radius-18: 18px;
+  --radius-50: 50px;
+  --radius-70: 70px;
   --radius-circle: 50%;
 
   /**
@@ -114,14 +102,6 @@
   --transition-3: 1000ms ease;
 
 }
-
-
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *,
 *::before,
@@ -328,6 +308,12 @@ body.nav-active { overflow: hidden; }
   width: 100px;
   margin-inline: auto;
   margin-block-start: 5px;
+}
+
+.logo img {
+  display: block;
+  height: auto;
+  border-radius: var(--radius-70);
 }
 
 .btn {
